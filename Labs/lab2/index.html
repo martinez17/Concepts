@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab2</title>
+    <link rel="stylesheet" type="text/css" href="min.css">
+    <link rel="stylesheet" type="text/css" href="framework.css">
+    <script src="framework.js"></script>
+</head>
+<body>
+<div class="application">
+    <div class="hide" id="userList">
+        <h2>User Table</h2>
+        <table class="table">
+            <thead>
+            <tr>
+                <th class='clickable' onclick="_frameworkSortById()">#</th>
+                <th class='clickable' onclick="_frameworkSortByFirst()">First Name</th>
+                <th class='clickable' onclick="_frameworkSortByLast()">Last Name</th>
+                <th class='clickable' onclick="_frameworkSortByCount()">TODOs</th>
+                <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody id="userTable">
+            <tr>
+                <td>1</td>
+                <td>Gary</td>
+                <td>Clark</td>
+                <td><i class="ico">✎</i> <i class="ico">ⓧ</i></td>
+            </tr>
+            </tbody>
+        </table>	
+        <a class="btn btn-b btn-sm smooth" onclick="_frameworkAddUser()">Add User</a>
+    </div>
+
+    <div class="hide" id="newUser">
+        <h2 id="new">New User</h2>
+        <input id='uid' class="hide">
+        <div><span class="addon">First Name</span><input id="fname" type="text" class="smooth"></div>
+        <div><span class="addon">Last Name</span><input id="lname" type="text" class="smooth"></div>
+        <div><span class="addon">TODO Count</span><input id="count" type="text" class="smooth"></div>
+        <div>
+            <hr>
+            <a class="btn btn-b btn-sm smooth" onclick="_frameworkUpdateUser()">Update</a>
+            <a class="btn btn-c btn-sm smooth" onclick="_frameworkCancelUser()">Cancel</a>
+        </div>
+    </div>
+</div>
+<script src="lab2.js"></script>
+</body>
+</html>

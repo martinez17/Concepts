@@ -1,0 +1,28 @@
+Abraham Martinez
+CST 223 Lab 1 
+Date: 04/02/2019
+
+1.) Sent the constraints to the certain words
+And be able add/subtract/multiple/divide the letter within the constraints
+The constraints should add up to one constraint
+Make an array or dictionary to store and then loop and multiply
+The word that creates the constraint is multiplied by a power of 10 where the -
+first letter is by the power of 10 to the place of the letter minus one - the last 
+letter in the constraint is multiplied by one
+And since these letters in the constraints are associated with numbers, you can pass them into - 
+a function that can accept those constraint
+
+2.) MiniZinc is neat with how you can tell it to solve
+the a certain problem and it doesn't need a way to solve
+it can be told to solve and solves it its own way. This language 
+is sort of like python with all the modules you can add which imports 
+certain libraries to make things easier. The way it does constraints for 
+variables is like an if statement in c/c++ where if the variable is not within
+scoop, it can display a message.
+
+3.) Yes c/c++ can solves these problems but with more code required. For instance, 
+the code that does the balance after each quarter with interest and repayment, that is all 
+done in some nice and simple lines where c/c++ would need of course the declaration of the
+variable but as some statements for self check. The output is easier in miniZn since 
+for c/c++ you need to declare floats or ints that can store the answer to then display. Yes you can do 
+the same in c/c++ where you can do the math in cout or print function but show func is easy.
